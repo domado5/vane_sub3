@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객지원</title>
+
+    <!-- <script src="js/jquery-1.12.3.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script><!--스크립트연결-->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="banner">
+    <div class="header">
+        <div class="header_inner">
+            <div class="linkbox">
+               <ul class="link">
+                   <li><a href="#">LOGIN</a></li>
+                   <li><a href="#">JOIN</a></li>
+                   <li><a href="#">MY PAGE</a></li>
+               </ul>
+            </div>
+       </div><!--headerinner f-->   
+
+            <div class="header2"> <!--header2-->
+           
+               <div class="img">
+                <a href="https://domado5.github.io/vane_main/"><img src="images/logo.png" alt="로고"></a>
+               </div>
+
+               <div class="nav_box">
+               <ul class="nav">
+                   <li><a href="https://domado5.github.io/vane_sub1/">브랜드</a>
+                       <ul class="sub">
+                       <li><a href="https://domado5.github.io/vane_sub1/">브랜드스토리</a></li>
+                       </ul></li>
+                   <li><a href="https://domado5.github.io/vane_sub2/">SHOP</a>
+                       <ul class="sub">
+                       <li><a href="https://domado5.github.io/vane_sub2/">메뉴</a></li>
+                       </ul></li>
+                   <li><a href="https://domado5.github.io/vane_sub3/">고객지원</a>
+                       <ul class="sub">
+                       <li><a href="https://domado5.github.io/vane_sub3/">이벤트</a></li>
+                       <li><a href="https://domado5.github.io/vane_sub3/">문의하기</a></li>
+                       </ul></li>
+                   <li><a href="https://domado5.github.io/vane_sub4/">매장찾기</a></li>
+               </ul>
+           </div>
+
+           <div class="icon_area">
+               <ul class="iconbox">
+                   
+                  <li> <a href="#"><img src="images/icon4.png" alt="아이콘1"></a></li>
+                  <li> <a href="#"><img src="images/icon5.png" alt="아이콘2"></a></li>
+                  
+               </ul>
+           </div>
+          </div><!--header2 f-->
+   </div>
+</div>
+
+
+<!-- 
+<ul id="board">
+    <li class="on">
+        <a href="#">자주 묻는 질문 & 문의</a>
+
+
+    <div class="white">
+        
+        <h2>자주 묻는 질문</h2>
+        <ul id="board_inner">
+            
+
+            <li><a href="#none">제품의 보증기간은 어떻게 되나요?</a>
+
+                <div class="box">
+                    <p>구입시기부터 1년입니다.</p>
+                </div>
+            </li>
+            <li><a href="#none">환불 진행과정을 알려주세요</a>
+                <div class="box">
+                    <p>반품신청>반품접수>택배접수 순으로 진행됩니다.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </li>
+
+
+    <li><a href="#">진행중인 이벤트</a>
+        <div class="con1">
+           <img src="images/cat.jpg" alt="고양이">
+        </div>
+    </li>
+</ul> -->
+
+<!-- 
+<ul id="board">
+    <li class="on"><a href="#">자주묻는질문</a>
+        <div class="notice">
+            
+
+            <ul id="question">
+                <li><a href="#none">Q. 첫번째 질문입니다.</a>
+                    <div>
+                        <p>A. 첫번째 답변입니다.</p>
+                    </div>
+                </li>
+                <li><a href="#none">Q. 두번째 질문입니다.</a>
+                    <div>
+                        <p>A. 두번째 답변입니다.</p>
+                    </div>
+                </li>
+            </ul>
+
+
+
+        </div>
+    </li>
+    <li><a href="#none">이벤트</a>
+        <div class="gallery">
+           
+
+하이루
+
+        </div>
+    </li>
+</ul> -->
+
+
+<div class="tab">
+    
+	<ul class="tabs type1">
+	<li class="on"><a href="#a">자주 묻는 질문</a></li>
+	<li><a href="#none">진행중인 이벤트</a></li>
+	
+	</ul>	
+	
+	<div class="tab_con on">
+        
+        <ul id="question">
+            <li><a href="#none">Q. 제품의 보증기간은 어떻게 되나요?</a>
+                <div>
+                    <p>A. 구입시기로 부터 1년 이내의 기간입니다.</p>
+                </div>
+            </li>
+            <li><a href="#none">Q. 환불정책</a>
+                <div>
+                    <p>A. 두번째 답변입니다.</p>
+                </div>
+            </li>
+            <li><a href="#none">Q. 사료의 성분을 알고 싶어요</a>
+                <div>
+                    <p>A. 두번째 답변입니다.</p>
+                </div>
+            </li>
+            <li><a href="#none">Q. 사료를 먹지 않습니다. 개선 할 수 있나요?</a>
+                <div>
+                    <p>A. 두번째 답변입니다.</p>
+                </div>
+            </li>
+            <li><a href="#none">Q. 교환 방법 QnA</a>
+                <div>
+                    <p>A. 두번째 답변입니다.</p>
+                </div>
+            </li>
+        </ul>
+
+        <p class="contact">지금 문의하기</p>
+        <div class="tablebox">
+            <table border="1">
+                <tr>
+                    <th>개인정보활용동의</th>
+                    <td> <input type="checkbox" name="체크" id=""> 동의합니다</td>
+                </tr>
+                <tr>
+                    <th>성명</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>이메일</th>
+                    <td><input type="email">  @  <input type="text"></td>
+                </tr>
+                <tr>
+                    <th>연락처</th>
+                    <td> <input type="tel" class="tel"> - <input type="tel" class="tel"> -  <input type="tel" class="tel"></td>
+                </tr>
+                <tr>
+                    <th>문의제목</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>내용</th>
+                    <td><textarea name="표" id="표" cols="90" rows="15"></textarea></td>
+                </tr>
+            </table>
+        </div>
+	</div>
+
+
+
+	<div class="tab_con">
+        <div class="pink">
+        <div class="catimg">
+            <img src="images/cat1.jpg" alt="고양이1">
+        </div>
+        <div class="rightbox">
+            <div class="event_text">
+            <p class="gray">2020.03.03 10:00  ~  2020.04.01 18:00</p>
+            <p class="black">2022 오픈 기념 한정세일</p>
+            <p class="gray">한정기간 세일로 저렴하게 구매해요</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="pink">
+        <div class="catimg">
+            <img src="images/cat2.jpg" alt="고양이2">
+        </div>
+        <div class="rightbox">
+            <div class="event_text">
+            <p class="gray">2020.03.03 10:00  ~  2020.04.01 18:00</p>
+            <p class="black">2022 VANE  증정 이벤트</p>
+            <p class="gray">한정기간 세일 구매시 사은품 증정</p>
+        </div>
+    </div>
+</div>
+
+    <div class="pink">
+        <div class="catimg">
+            <img src="images/cat3.jpg" alt="고양이3">
+        </div>
+        <div class="rightbox">
+            <div class="event_text">
+            <p class="gray">2020.03.03 10:00  ~  2020.04.01 18:00</p>
+            <p class="black">2022 금액대별 세일 이벤트</p>
+            <p class="gray">특정 금액 구매시 30% 할인 특가</p>
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+
+<div id="footer">
+    <div class="footer_inner">
+        <div class="left_footer">
+       <ul>
+           <li><a href="#">공지사항</a></li>
+           <li><a href="#">상시 오픈 안내문</a></li>
+       </ul>
+        </div>
+        <div class="right_footer">
+       <ul>
+           <li><a href="#"><img src="images/footericon1.png" alt="푸터아이콘1"></a></li>
+           <li><a href="#"><img src="images/footericon2.png" alt="푸터아이콘2"></a></li>
+           <li><a href="#"><img src="images/footericon3.png" alt="푸터아이콘3"></a></li>
+           <li><a href="#"><img src="images/footericon4.png" alt="푸터아이콘4"></a></li>
+       </ul>
+    </div>
+    </div>
+        </div>
+<div id="footer2">
+    <div class="footer_bottom">
+        <div class="left_bottom">
+            <p class="vane">VANE</p>
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">서비스이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">제휴문의</a></li>
+            </ul>
+            <p class="footer_text">㈜VANE</p>
+            <p class="footer_text">대표자 : VANE ,VANE@GMAIL.COM</p>
+            <p class="footer_text">주소 : 서울특별시 서울구 서울대로 120, 70중(한강로 6가)</p>
+            <p class="footer_text">사업자등록번호 : 123-45-670(사업자정보확인)판매업신고 : 201140</p>
+            <p class="copyright">COPYRIGHT®2022 VANE CORPORATION. ALL RIGHTS RESERVED</p>
+        </div>
+
+        <div class="right_bottom">
+            <ul>
+                <li>고객센터</li>
+                <li>1500-7777</li>
+                <li>MON-FRI 09:00-17:00</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+     <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
